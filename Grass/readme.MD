@@ -43,10 +43,13 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 
 ```json
 {
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "limit": 1,
+  "countdown": 60,
+  "country_time": "en-US",
+  "delayEachAccount": [1, 81],
+  "maxReconnectAttempts": 5
 }
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Take it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/5841)
