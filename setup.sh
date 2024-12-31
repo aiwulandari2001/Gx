@@ -33,8 +33,10 @@ create_default_configs() {
   "limit": 1,
   "countdown": 60,
   "country_time": "en-US",
-  "delayEachAccount": [1, 81]
+  "delayEachAccount": [1, 81],
+  "maxReconnectAttempts": 5
 }
+
 EOL
 }
 
